@@ -35,7 +35,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: app3-ingress
-    annotations:
+  annotations:
       traefik.ingress.kubernetes.io/router.entrypoints: web, websecure
 spec:
   rules:
